@@ -1,0 +1,80 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Thu Sep 17 01:14:46 2020
+[*]
+[dumpfile] "/home/marcoch7/verificacion/waveforms/result_old/dump.vcd"
+[dumpfile_mtime] "Thu Sep 17 00:48:55 2020"
+[dumpfile_size] 273572
+[savefile] "/home/marcoch7/verificacion/waveforms/result_old/tb_nointerface.gtkw"
+[timestart] 0
+[size] 1000 604
+[pos] 58 89
+*-16.000000 5200 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] PID_tb.
+[treeopen] PID_tb.wb_master_0.
+[sst_width] 223
+[signals_width] 150
+[sst_expanded] 1
+[sst_vpaned_height] 153
+@200
+-PID_0
+@28
+[color] 3
+PID_tb.PID_0.i_clk
+[color] 3
+PID_tb.PID_0.i_rst
+@22
+[color] 3
+PID_tb.PID_0.i_wb_adr[15:0]
+@28
+[color] 3
+PID_tb.PID_0.i_wb_cyc
+@22
+[color] 3
+PID_tb.PID_0.i_wb_data[31:0]
+@28
+[color] 3
+PID_tb.PID_0.i_wb_stb
+[color] 3
+PID_tb.PID_0.i_wb_we
+@22
+[color] 3
+PID_tb.PID_0.o_un[31:0]
+@28
+[color] 3
+PID_tb.PID_0.o_valid
+[color] 3
+PID_tb.PID_0.o_wb_ack
+@22
+[color] 3
+PID_tb.PID_0.o_wb_data[31:0]
+@200
+-WB
+@29
+[color] 2
+PID_tb.wb_master_0.CLK_I
+@28
+[color] 2
+PID_tb.wb_master_0.ACK_I
+@22
+[color] 2
+PID_tb.wb_master_0.ADR_O[31:0]
+@28
+[color] 2
+PID_tb.wb_master_0.CYC_O
+@22
+[color] 2
+PID_tb.wb_master_0.DAT_I[31:0]
+[color] 2
+PID_tb.wb_master_0.DAT_O[31:0]
+@28
+[color] 2
+PID_tb.wb_master_0.GO
+@22
+[color] 2
+PID_tb.wb_master_0.SEL_O[3:0]
+@28
+[color] 2
+PID_tb.wb_master_0.STB_O
+[pattern_trace] 1
+[pattern_trace] 0
