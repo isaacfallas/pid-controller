@@ -104,10 +104,10 @@ endtask
   
   
 // Interface 
-//parameter	wb_nb=32;
-//parameter adr_wb_nb = 16;
+parameter	wb_nb=32;
+parameter adr_wb_nb = 32;
 
-intf_PID intf(clk);  
+intf_PID #(wb_nb, adr_wb_nb) intf(clk);  
 intf_wb intf_wb(clk);    
   
 //wishbone master
@@ -177,7 +177,7 @@ rst,
 intf.i_wb_cyc,
 intf.i_wb_stb,
 intf.i_wb_we,
-intf.i_wb_adr,
+intf.i_wb_adr[15:0],
 intf.i_wb_data,
 intf.o_wb_ack,
 intf.o_wb_data,
